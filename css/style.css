@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    text-align: center; /*? align the usual elements in the body to be centered */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    margin: 0 auto 0 auto; /*? 'auto' helps keep size-adjusted element to the center */
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem; /** dynamic font size (100% = 1em = 16px or 1rem [won't scale ladderly]) */
+    color: #3c5177;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #3c5177;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: #475d85;
+}
+
+p {
+    font-family: 'Fira Code', monospace;
+    line-height: 2; /* double spacing */
+}
+
+a {
+    margin: 0px 20px;
+    color: #3c5177;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #b0d5f5;
+}
+
+hr {
+    border: dotted #3c5177 6px;
+    border-bottom: none;
+    width: 20%;
+    margin: 50px auto;
+}
+
+li {
+    font-family: 'Fira Code', monospace;
+}
+
+/* ----------------------------------------------------------------------------------------------------------- */
+
+.top-container {
+    background-color: #b0d5f5 ;
+    position: relative; /* 'relative' is used, so clouds can be placed absolutely refered to the container */
+    padding-top: 100px;
+}
+
+.er {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    width: 120px;
+    position: absolute;
+    top: 70px;
+    right: 250px;
+}
+
+.bottom-cloud {
+    width: 120px;
+    position: absolute;
+    left: 200px;
+}
+
+.city {
+    width: 35%;
+    padding-top: 50px;
+}
+
+/* ----------------------------------------------------------------------------------------------------------- */
+
+.middle-container {
+    background-color: #ffeaba;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.profile-pic {
+    width: 12%;
+    border-radius: 40%;
+}
+
+.intro {
+    margin: auto;
+    width: 50%;
+}
+
+.skills {
+    margin: auto;
+}
+
+.skill-row {
+    margin: auto;
+    width: 80%;
+    display: block;
+}
+
+.skill-text {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px;
+}
+
+.skill-list {
+    text-align: left;
+    display: inline-block;
+}
+
+.screen {
+    display: inline;
+    vertical-align: middle;
+    width: 12rem;
+    padding: 20px;
+}
+
+.circuit {
+    display: inline;
+    vertical-align: middle;
+    width: 12rem;
+    padding: 20px;
+}
+
+.skill-list2 {
+    text-align: left;
+}
+
+.contact-message {
+    margin: 40px auto 40px;
+    width: 50%;
+}
+
+.btn { /** use CSS button generator: https://css3buttongenerator.com/ */
+    background: #475d85;
+    background-image: -webkit-linear-gradient(top, #475d85, #3c5177);
+    background-image: -moz-linear-gradient(top, #475d85, #3c5177);
+    background-image: -ms-linear-gradient(top, #475d85, #3c5177);
+    background-image: -o-linear-gradient(top, #475d85, #3c5177);
+    background-image: linear-gradient(to bottom, #475d85, #3c5177);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Fira Code', monospace;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+.btn:hover {
+    background: #b0d5f5;
+    background-image: -webkit-linear-gradient(top, #b0d5f5, #475d85);
+    background-image: -moz-linear-gradient(top, #b0d5f5, #475d85);
+    background-image: -ms-linear-gradient(top, #b0d5f5, #475d85);
+    background-image: -o-linear-gradient(top, #b0d5f5, #475d85);
+    background-image: linear-gradient(to bottom, #b0d5f5, #475d85);
+    font-family: 'Fira Code', monospace;
+    color: #ffffff;
+    text-decoration: none;
+}
+    
+/* ----------------------------------------------------------------------------------------------------------- */
+
+.bottom-container {
+    background-color: #fe9380;
+    position: relative;
+    padding: 40px 0px 10px;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 0.8rem;
+    margin: 30px auto 10px;
+}
